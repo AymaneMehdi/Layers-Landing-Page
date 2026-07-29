@@ -4,6 +4,7 @@ import LogoTicker from "@/sections/LogoTicker";
 import Introduction from "@/sections/Introduction";
 import Features from "@/sections/Features";
 import Integrations from "@/sections/Integrations";
+import FAQ from "@/sections/FAQ";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Introduction />
       <Features />
       <Integrations />
+      <FAQ />
     </>
   );
 }
